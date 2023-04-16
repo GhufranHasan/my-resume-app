@@ -1,4 +1,8 @@
-img[src="/images/profile1.jpg"] {
+/* img[src="/images/profile1.jpg"] {
     width: 300px;
     height: auto;
+} */
+img[src="/images/profile1.jpg"] {
+    width: auto;
+    height: 300px;
 }

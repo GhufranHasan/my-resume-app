@@ -10,9 +10,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body>
+      <body className="flex flex-col sm:flex-row">
         <Sidebar data={personalData} />
-        {children}
+        <main className="grow-full p-8 sm:p-16 w-full sm:basis-2/3 bg-white ml-auto">{children}</main>
       </body>
     </html>
   )
